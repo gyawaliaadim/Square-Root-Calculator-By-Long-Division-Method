@@ -59,7 +59,7 @@ def userinput(msg):
         except:
             print("Please enter a valid input.")
     return inp
-def sqcal(inp,decimalPoints):
+def SquareRootOf(inp,decimalPoints):
     if inp:
         inp=userinput("Enter a number: ")
     listOfNumbers=make_pairs(str(inp))
@@ -91,7 +91,7 @@ def sqcal(inp,decimalPoints):
         ask=input("Do you want to continue(y/n): ")
         match ask.lower():
             case "y":
-                sqcal(True,True)
+                SquareRootOf(True,True)
             case "n":
                 print("Thank you for using !")
                 exit()
@@ -99,7 +99,7 @@ def sqcal(inp,decimalPoints):
                 print("Please enter a valid input.")
                 pass
 if __name__=="__main__":
-    sqcal(True,True)
+    SquareRootOf(True,True)
 '''
-Use sqcal(number, decimal_points) to find the square root of a number
+Use SquareRootOf(number, decimal_points) to find the square root of a number
 '''
