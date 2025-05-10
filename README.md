@@ -11,7 +11,8 @@ To use it follow these steps:
 <br>
 <br>
 (Outside the program) use:<br>
-<b> import Square-Root-Calculator-By-Long-Division-Method as sqcal</b>
+<b> <br>import Square-Root-Calculator-By-Long-Division-Method as sqcal</b><br><br>
+Here is the way to run it: <br>
 <b>sqcal.SquareRootOf(number, decimal points)</b>
 <br>
 <br>
