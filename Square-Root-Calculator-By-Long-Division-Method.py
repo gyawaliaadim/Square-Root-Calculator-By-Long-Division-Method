@@ -1,6 +1,6 @@
 '''
 Made By: Aadim Gyawali
-Publish Date: 1/16/2023
+Inital Publish Date: 1/16/2023
 '''
 
 import sys
